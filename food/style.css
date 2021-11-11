@@ -40,6 +40,8 @@ section{
 }
 
 .heading{
+    text-shadow: 0 .4rem 0.2rem rgb(55, 61, 61);
+    /* text-decoration: overline; */
     text-align: center;
     font-size: 3.5rem;
     padding: 1rem;
