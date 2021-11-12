@@ -34,7 +34,7 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background: linear-gradient(-45deg, #ee7752, #e73c7e ,#23a6d5,#23d5ab);
-    background-size: 1200% 1200%;
+    background-size: 1500% 1200%;
     animation: gradient 15s ease infinite;
     height: 100vh;
     /* background:rgb(32, 32, 32);
