@@ -141,15 +141,17 @@ header #hamburger li a:hover, header #hamburger li a.active {
 
 section{
     position: relative;
+    padding-top: 5rem;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#2b1055, #7597de);
+    background: #262626;
     color: #fff;
 }
 section .content{
+    padding-bottom: 15rem;
     max-width: 80%;
 }
 section .content h2{
@@ -226,8 +228,8 @@ section .content  a{
     position: relative;
     background: #fff;
     color: #262626;
-    padding: 15px 30px;
-    font-size: 16px;
+    padding: 10px 15px;
+    font-size: 10px;
     display: inline-block;
     text-decoration: none;
     font-weight: 700;
@@ -240,14 +242,14 @@ section .content  a[data-scroll="in"]{
     transition-delay: 1s;
     opacity: 1;
 }
-/* .sec {
+.sec {
     overflow-x: hidden;
     position: relative;
     padding: 30px 90px;
-    background: #1c0522;
+    background: linear-gradient(to top, #1c0522, transparent);
 }
 
-.sec h2 {
+/* .sec h2 {
     font-size: 3.5rem;
     margin-bottom: 10px;
     color: #fff;
@@ -629,21 +631,21 @@ input[type="checkbox"]:checked~span:nth-of-type(3) {
 
     section .content h2{
         display: inline-block;
-        font-size: 4rem;   
+        font-size: 3rem;   
     }
     section .content h3{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     section .content p{
         padding-top: 10px;
         padding-bottom: 15px;
-        font-size: 1.7em;
+        font-size: 1.5em;
         transition: 1s;
         opacity: 0;
     }
     section .content p[data-scroll="in"]{
         opacity: 1;
-        transition-delay: 1.5;
+        transition-delay: 2s;
     }
   }
 
