@@ -11,7 +11,8 @@
 body {
     min-height: 100vh;
     overflow-x: hidden;
-    background: linear-gradient(#2b1055, #7597de);
+    /* background: linear-gradient(#2b1055, #7597de); */
+    background: #141850;
 }
 
 header {
@@ -147,7 +148,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #262626;
+    background: #141850;
     color: #fff;
 }
 section .content{
@@ -175,7 +176,7 @@ section .content h2:before{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #e02bff;
+    background: #ed7966;
     transform-origin: right;
     transition: 0.5s;
 }
@@ -226,27 +227,34 @@ section .content p[data-scroll="in"]{
 }
 section .content  a{
     position: relative;
-    background: #fff;
-    color: #262626;
+    background: #ed7966;
+    color: #fff;
     padding: 10px 15px;
-    font-size: 10px;
+    border-radius: 10px 10px 25px 0px;
+    font-size: 15px;
     display: inline-block;
     text-decoration: none;
-    font-weight: 700;
-    transition: 1s;
+    font-weight: 400;
+    transition: 0.3s;
     transform: translateX(100px);
     opacity: 0;
+    cursor: pointer;
 }
+
 section .content  a[data-scroll="in"]{
     transform: translateX(0px);
-    transition-delay: 1s;
+    transition-delay: 0.5s;
     opacity: 1;
+}
+section .content  a:hover{
+    background-color: #fff;
+    color:#ed7966;
 }
 .sec {
     overflow-x: hidden;
     position: relative;
     padding: 30px 90px;
-    background: linear-gradient(to top, #1c0522, transparent);
+    background: linear-gradient(to top, #ed7966, transparent);
 }
 
 /* .sec h2 {
