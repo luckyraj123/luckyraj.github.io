@@ -633,15 +633,15 @@ input[type="checkbox"]:checked~span:nth-of-type(3) {
     }
     section .content h2{
         display: inline-block;
-        font-size: 3rem;   
+        font-size: 4rem;   
     }
     section .content h3{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     section .content p{
         padding-top: 10px;
         padding-bottom: 15px;
-        font-size: 1.5em;
+        font-size: 1.8em;
         transition: 1s;
         opacity: 0;
     }
