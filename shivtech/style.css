@@ -16,10 +16,10 @@ body {
 }
 
 header {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
-    /* background: linear-gradient(to bottom, #2b1055, transparent); */
+    background: linear-gradient(to bottom, #2b1055, transparent);
     width: 100%;
     height: 90px;
     padding: 20px 20px;
@@ -27,7 +27,7 @@ header {
     overflow: hidden;
     justify-content: space-between;
     align-items: center;
-    /* z-index: 11000; */
+    z-index: 11000;
 }
 
 header .logo {
@@ -131,7 +131,7 @@ header #hamburger li a:hover, header #hamburger li a.active {
     height: 50px;
     text-align: center;
     width: 200px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     transform: translateY(150px);
     z-index: 111;
     cursor: pointer;
@@ -228,14 +228,14 @@ section .content p[data-scroll="in"]{
 section .content  a{
     position: relative;
     background: #ed7966;
-    color: #fff;
+    color: #555;
     padding: 10px 15px;
     border-radius: 10px 10px 25px 0px;
     font-size: 15px;
     display: inline-block;
     text-decoration: none;
     font-weight: 400;
-    transition: 0.3s;
+    transition: 0.2s;
     transform: translateX(100px);
     opacity: 0;
     cursor: pointer;
@@ -252,9 +252,11 @@ section .content  a:hover{
 }
 .sec {
     overflow-x: hidden;
+    padding-top: 100px;
     position: relative;
-    padding: 30px 90px;
-    background: linear-gradient(to top, #ed7966, transparent);
+    /* padding: 30px 90px; */
+    background: #141850;
+    text-shadow: 2px 2.5px 2px  #88fbff;
 }
 
 /* .sec h2 {
@@ -348,6 +350,7 @@ label {
 label span {
     background: #fff;
     border-radius: 10px;
+    
     height: 7px;
     margin: 7px 0;
     transition: .4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
@@ -541,9 +544,6 @@ input[type="checkbox"]:checked~span:nth-of-type(3) {
 
 
 
-
-
-
 @media only screen and (max-width: 500px){
 
 #section{
@@ -635,7 +635,9 @@ input[type="checkbox"]:checked~span:nth-of-type(3) {
         color: #fff;
         border-radius: 50px;
     }
-
+    .sec{
+        background: #141850;
+    }
     section .content{
         padding-bottom: 100%;
     }

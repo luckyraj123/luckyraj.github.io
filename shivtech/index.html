@@ -12,6 +12,7 @@
   <title>TheShivTech</title>
   <link rel="stylesheet" href="style.css">
 
+
 </head>
 
 
@@ -24,13 +25,13 @@
     <div id="buttons-container" class="a">
       <ul class="buttons-container aaaa" id="hamburger" style="display: flex;">
 
-        <li><a href="#" class="btn active">Home</a></li>
+        <li><a href="#" id="button" class="btn active">Home</a></li>
 
-        <li><a href="#sec" class="btn">Our Service</a></li>
+        <li><a href="#sec" id="button" class="btn">Our Service</a></li>
 
-        <li><a href="#about" class="btn">About</a></li>
+        <li><a href="#about" id="button" class="btn">About</a></li>
 
-        <li><a href="#contact" class="btn">Contact Us</a></li>
+        <li><a href="#contact" id="button" class="btn">Contact Us</a></li>
 
       </ul>
     </div>
@@ -279,17 +280,28 @@
   <script>
     let button = document.querySelector('#check');
     let navbar = document.querySelector('#buttons-container');
-
+    let btn = document.querySelectorAll('#button'); 
+    
+    
     button.addEventListener('click', () => {
       if (navbar.classList == 'a') {
         navbar.classList.replace('a', 'activated');
-        console.log('added')
+        console.log('added');
       }
       else {
         navbar.classList.replace('activated', 'a');
-        console.log('removed')
+        console.log('removed');
       }
-    })
+    });
+
+
+     btn.addEventListener('click', ()=>{
+      navbar.classList.remove('activated');
+      console.log("bhag");
+    });
+
+
+
 
   </script>
 
