@@ -3,10 +3,10 @@ const elts = {
     text2: document.getElementById('text2'), 
 };
 
-const texts =["CodeWithDivu","is","so","satisfying","to","learn?"];
+const texts =["we will","give you","to","the best","SERVICE !"];
 
-const morphTime = 1;
-const cooldownTime = 0.25;
+const morphTime = 1.5;
+const cooldownTime = 0.50;
 
 let textIndex = texts.length - 1;
 let time = new Date();
