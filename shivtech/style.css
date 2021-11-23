@@ -392,8 +392,34 @@ input[type="checkbox"]:checked~span:nth-of-type(3) {
 
 
 
-
-
+section #lucky{
+    position: absolute;
+    right: 100px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #701741;
+}
+#container{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 60pt;
+    top: 10%;
+    right: 30%;
+    bottom: 0;
+    filter: url(#threshold) blur(0.6px);
+}
+#text1, #text2{
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: -100%;
+    font-size: 3rem;
+    text-align: center;
+    user-select: none;
+}
 
 
 
