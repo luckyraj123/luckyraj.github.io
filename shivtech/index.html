@@ -280,11 +280,13 @@
   <script>
     let button = document.querySelector('#check');
     let navbar = document.querySelector('#buttons-container');
-   
+    // let navbar = document.querySelector('.a');
     
     
     button.addEventListener('click', () => {
       if (navbar.classList == 'a') {
+        // menu.classList.toggle('fa-times');
+        // navbar.classList.toggle('active');
         navbar.classList.replace('a', 'activated');
         console.log('added');
       }
@@ -294,7 +296,7 @@
       }
     });
 
-
+    
 
 
 
