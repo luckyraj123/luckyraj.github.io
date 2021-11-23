@@ -700,7 +700,7 @@ section #lucky{
         top: 10%;
         right: 30%;
         bottom: 0;
-        filter: url(#threshold) blur(0.6px);
+        filter: url(#threshold) blur(0.10px);
     }
     #text1, #text2{
         position: absolute;
