@@ -1,0 +1,49 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body {
+    font-family: 'Segoe UI' , 'Arial', 'Helvetica', 'sans-serif';
+    background-image: linear-gradient(250deg, #dddbd1, #d2dbdc);
+}
+.top{
+    height: 120px;
+    width: 100%;
+    background-color: #009688;
+    position:fixed;
+    z-index: -1;
+}
+.chatbox{
+    height:calc(100% - 40px);
+    width: 96%;
+    margin-top: 20px;
+    padding: 0;
+
+}
+.profile-pic{
+    height: 40px;
+    width: 40px;
+}
+.form-rounded{
+    border-radius: 1rem;
+}
+.friend-pic{
+    height: 50px;
+    width: 50px;
+}
+.name{
+    font-weight: 400;
+    color: #000;
+}
+.under-name{
+    font-size: 12px;
+    line-height: 15px;
+    max-height:15px ;
+}
+.icon{
+    font-size: 15px;
+    color: #9CA1A3;
+}

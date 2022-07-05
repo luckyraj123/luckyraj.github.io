@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/536fe7e567.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ChatApp</title>
+</head>
+
+<body>
+
+    <span class="top"></span>
+
+    <div class="container-fluid bg-white chatbox shadow-lg rounded">
+        <div class="row h-100">
+            <div class="col-md-4 pr-0">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <img src="photo/pngegg.png" alt="no image" class="profile-pic">
+                            </div>
+                        </div>
+                        <div class="col-md-5"></div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:#f8f8f8;">
+                            <input type="text" placeholder="search or new chat" class="form-control form-rounded">
+                        </li>
+                        <li class="list-group-item list-group-item-action" onclick="StartChat(1)">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="photo/pngegg.png" class="friend-pic">
+                                </div>
+                                <div class="col-md-10" style="cursor:pointer;">
+                                    <div class="name">Divyarajsinh</div>
+                                    <div class="under-name">This is some messges ....</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-action">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="photo/pngegg.png" class="friend-pic">
+                                </div>
+                                <div class="col-md-10" style="cursor:pointer;">
+                                    <div class="name">AAKASH</div>
+                                    <div class="under-name">This is some messges ....</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-action">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="photo/pngegg.png" class="friend-pic">
+                                </div>
+                                <div class="col-md-10" style="cursor:pointer;">
+                                    <div class="name">SHIVRAJSINH</div>
+                                    <div class="under-name">This is some messges ....</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-action">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="photo/pngegg.png" class="friend-pic">
+                                </div>
+                                <div class="col-md-10" style="cursor:pointer;">
+                                    <div class="name">HITESH</div>
+                                    <div class="under-name">This is some messges ....</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8 pl-0">
+                <div id="chatpanel" class="card h-100" style="display:none;">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="photo/pngegg.png" alt="no image" class="profile-pic">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="name">Divyarajsinh</div>
+                                <div class="under-name">last seen 6:59 PM</div>
+                            </div>
+                            <div class="col-md-4 icon">
+                                <i class="fas fa-search"></i>
+                                <i class="fas fa-paperclip ml-4 "></i>
+                                <i class="fas fa-ellipsis-v ml-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body"></div>
+
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <i class="far fa-grin fa-2x"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <input type="text" placeholder="Type here" class="form-control form-rounded">
+                            </div>
+                            <div class="col-md-1">
+                                <i class="fas fa-microphone fa-2x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="divstart" class="text-center">
+                    <i class="fas fa-comments mt-5" style="font-size: 150px;"></i>
+                    <h2 class="mt-5">Select your friend from the list and start chating</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <!-- <script src="script/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script/popper.min.js"></script> -->
+    <script src="script/script.js"></script>
+
+
+</body>
+
+</html>
