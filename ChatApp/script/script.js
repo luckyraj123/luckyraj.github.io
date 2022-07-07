@@ -22,7 +22,7 @@ function hideChatApp() {
 
 function OnKeyDown() {
     document.addEventListener('keydown', function (key) {
-        if (key.which === 13 ) {
+        if (key.which == 32 ) {
             SendMessage();
         }
     });
@@ -42,6 +42,8 @@ function SendMessage() {
 </div>`
 
     document.getElementById('messages').innerHTML += message;
-    document.getElementById('txtMessage').value =' ';
+    document.getElementById('txtMessage').value ='';
     document.getElementById('txtMessage').focus();
+
+    document.getElementById('messages').scrollTo(0,document.getElementById('messages').clientHeight )
 }
